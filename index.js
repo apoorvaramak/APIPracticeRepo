@@ -37,7 +37,7 @@ var app = {
 		var nyTimesURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?fq=headline%3A%22' + currentSearchWord + '%22&page=' + randNum + '&sort=newest&api-key=';
 
 		// Initialize your API key.
-		var myNYKey = 'PAQeoTLJHesvAt4NN00YB6tuITwebFv1';
+		var myNYKey = '';
 
 		// Add your API key.
 		var nyTimesReqURL = nyTimesURL + myNYKey;
